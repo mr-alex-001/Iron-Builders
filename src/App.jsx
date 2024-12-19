@@ -1,8 +1,9 @@
 
-import Home from './assets/components/Home.jsx'
-import './assets/components/Home.css' 
-import Footer from './assets/footer'
-import Header from './assets/components/Header.jsx'
+
+import Home from './components/Home.jsx'
+
+import Footer from './components/Footer.jsx'
+import Header from './components/Header.jsx'
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
     <>
       <Home />
       <Header />
-      {/* <Footer /> */}
+      <Footer />
       
     </>
   )
