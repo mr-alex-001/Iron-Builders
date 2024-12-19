@@ -1,0 +1,55 @@
+styles.css
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    object-fit: cover; /* Ensures the video covers the background without distortion */
+}
+
+.content {
+    color: rgb(4, 4, 4);
+    transform: translateY(-50%);
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 550px;
+    line-height: 2px;
+    background-color: white;
+    opacity: 0.7;
+    height: 100px;
+    
+
+    
+}
+#content{
+    margin-bottom: 10px;
+}
+.content p{
+    color: white;
+    text-shadow: 0 0 3px #0d0d0d, 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000;
+}
+.btn{
+    background-color: #f9fafa;
+    border: none;
+    color: rgb(7, 7, 7);
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-top: 110px;
+}
